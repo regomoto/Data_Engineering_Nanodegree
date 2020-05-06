@@ -2,7 +2,8 @@
 Create a PostgreSQL database that can be used for song play analysis. The database is created using song data and a log of user activitiy that are both in JSON format. 
 
 #### How to run scripts
-1 - From the terminal, run create_tables.py (enter "python create_tables.py"). 
+1 - From the terminal, run create_tables.py (enter "python create_tables.py").
+
 2 - After it is successfully run, run the etl.py script (enter "python etl.py"). etl.py script should process 79 song_data files and 30 log_data files
 
 
