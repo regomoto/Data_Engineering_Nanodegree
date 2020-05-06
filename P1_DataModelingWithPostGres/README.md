@@ -1,6 +1,8 @@
 #### Summary 
 Create a PostgreSQL database that can be used for song play analysis. The database is created using song data and a log of user activitiy that are both in JSON format. 
 
+NOTE: Files not available in this repository. Data was available in workspace provided by Udacity
+
 #### How to run scripts
 1) From the terminal, run create_tables.py (enter "python create_tables.py").
 
