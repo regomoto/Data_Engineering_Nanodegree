@@ -10,7 +10,7 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 ## FILE STRUCTURE
 
 __1) dags:__ This folder contains the dag file that defines imports, tasks, and task dependencies and a set of SQL queries used to create tables. 
-- _udac_example_dag.py_: File containst DAG definition with imports, tasks, and task dependencies.
+- _udac_example_dag.py_: File contains DAG definition with imports, tasks, and task dependencies.
 - _create_tables.sql_: Containts SQL code that will be read using a Postgres Operator
 
 __2) plugins:__ This folder contains operators that create and load necessary tables, stage data in Redshift, and run data quality checks. It also contains supporting SQL code needed to accomplish these operations.
